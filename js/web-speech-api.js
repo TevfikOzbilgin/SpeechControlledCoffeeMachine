@@ -115,7 +115,7 @@ $( document ).ready(function() {
         final_span.innerHTML = 'How can I help you?';
       }
 
-      if (final_span.textContent.toLowerCase() === 'I want to drink coffee') {
+      if (final_span.textContent.toLowerCase() === 'i want to drink coffee') {
         final_span.innerHTML = 'I am preparing it';
       }
 
@@ -136,7 +136,6 @@ $( document ).ready(function() {
       }
 
       if (final_span.textContent.toLowerCase() === 'make me a black coffee please') {
-        // If equal, update final_span with the help message
         final_span.innerHTML = 'Sure thing! Black coffee coming right up.';
       }
 
@@ -145,42 +144,34 @@ $( document ).ready(function() {
       }
 
       if (final_span.textContent.toLowerCase() === 'brew my coffee at a higher temperature') {
-        // If equal, update final_span with the help message
         final_span.innerHTML = 'Certainly! Your coffee will be brewed at a higher temperature. Enjoy!';
       }
 
       if (final_span.textContent.toLowerCase() === 'add some frothy milk to my latte') {
-        // If equal, update final_span with the help message
         final_span.innerHTML = 'Frothy milk it is! Your perfect latte will be ready shortly.';
       }
 
       if (final_span.textContent.toLowerCase() === 'brew me a large cup of coffee') {
-        // If equal, update final_span with the help message
         final_span.innerHTML = 'Sure thing! Large cup of coffee, coming right up.';
       }
 
       if (final_span.textContent.toLowerCase() === 'what is the status of my coffee') {
-        // If equal, update final_span with the help message
         final_span.innerHTML = 'Your coffee is currently brewing. It will be ready in a few moments.';
       }
 
       if (final_span.textContent.toLowerCase() === 'cancel the coffee brewing') {
-        // If equal, update final_span with the help message
         final_span.innerHTML = 'Canceled! Let me know if you need anything else.';
       }
 
       if (final_span.textContent.toLowerCase() === 'cancel the coffee brewing please') {
-        // If equal, update final_span with the help message
         final_span.innerHTML = 'Canceled! Let me know if you need anything else.';
       }
 
       if (final_span.textContent.toLowerCase() === 'grind the coffee beans to a fine setting') {
-        // If equal, update final_span with the help message
         final_span.innerHTML = 'Grinding to a fine setting. Your customized brew is in progress.';
       }
 
       if (final_span.textContent.toLowerCase() === 'thank you coffee machine') {
-        // If equal, update final_span with the help message
         final_span.innerHTML = 'You are welcome! Enjoy your coffee, and have a great day!';
       }
 
