@@ -109,9 +109,27 @@ $( document ).ready(function() {
           interim_transcript += event.results[i][0].transcript;
         }
       }
-      final_transcript = capitalize(final_transcript);
       final_span.innerHTML = linebreak(final_transcript);
-      interim_span.innerHTML = linebreak(interim_transcript);
+
+      if (final_span.textContent.toLowerCase() === 'hello') {
+        // If equal, update final_span with the help message
+        final_span.innerHTML = 'How can I help you?';
+     }
+
+      if (final_span.textContent.toLowerCase() === 'i want to drink coffee') {
+        // If equal, update final_span with the help message
+        final_span.innerHTML = 'i am preparing it';
+      }
+
+      if (final_span.textContent.toLowerCase() === 'can you prepare me a cappuccino') {
+        // If equal, update final_span with the help message
+        final_span.innerHTML = 'of course! Already done';
+      }
+
+      if (final_span.textContent.toLowerCase() === 'can you prepare me cappuccino') {
+        // If equal, update final_span with the help message
+        final_span.innerHTML = 'of course! Already done';
+      }
     };
   }
 });
